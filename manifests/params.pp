@@ -17,7 +17,6 @@ class ssh::params {
 #    fail("${facts['operatingsystem']} is not supported!")
 #  }
 
-
   case $facts['os']['family'] {
     'Debian': {
       $package_name = 'openssh-server'
@@ -31,7 +30,6 @@ class ssh::params {
       fail("${facts['operatingsystem']} is not supported!")
     }
   }
-
 
 ### This is not working because of 'operatingsystem', error in 'fail("$(facts...!")' 
 #  case $facts['operatingsystem'] {
@@ -53,5 +51,7 @@ class ssh::params {
 #    }
 #  }
 
+$permit_root_login = false
+$port = 22
 
 }
