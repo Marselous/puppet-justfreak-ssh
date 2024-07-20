@@ -1,14 +1,14 @@
 {
-	"name": "justfreak-ssh",
-        "version": "0.1.0",
-        "author": "Stanislav Vainer <stanislav.vainer@outlook.com>",
-        "summary": "This module will manage ssh",
-        "license": "Apache-2.0",
-        "source": "https://github.com/Marselous/my-puppet-enviorment.git",
-        "project_page": "https://github.com/Marselous/my-puppet-enviorment.git",
-        "issues_url": "https://github.com/Marselous/my-puppet-enviorment.git",
-        "dependencies": [
-		{"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
-	],
-	"data_provider": null
+  "name": "justfreak-ssh",
+  "version": "0.1.0",
+  "author": "Stanislav Vainer <stanislav.vainer@outlook.com>",
+  "summary": "This module will manage ssh",
+  "license": "Apache-2.0",
+  "source": "https://github.com/Marselous/my-puppet-enviorment.git",
+  "project_page": "https://github.com/Marselous/my-puppet-enviorment.git",
+  "issues_url": "https://github.com/Marselous/my-puppet-enviorment.git",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ],
+  "data_provider": "function"
 }
